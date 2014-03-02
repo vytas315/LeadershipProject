@@ -1,7 +1,7 @@
 .tile{
 	width:30%;
 	padding: 0px 20px 40px 20px;
-	border-top: 1px solid #777;
+	/*border-top: 1px solid #777;*/
 	/*border-radius: 4px;*/
 	margin:1%;
 }
@@ -59,4 +59,15 @@ dd{
       -ms-transition-duration: 0s;
        -o-transition-duration: 0s;
           transition-duration: 0s;
+}
+
+/**** Isotope filtering ****/
+
+.isotope-item {
+  z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
 }
