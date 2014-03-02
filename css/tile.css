@@ -6,8 +6,25 @@
 	margin:1%;
 }
 
+@media (max-width:900px){
+	.tile{
+		width:45%;
+	}
+}
+
+@media (max-width:600px){
+	.tile{
+		width:95%;
+	}
+}
+
 dd{
 	margin-bottom:10px;
+}
+
+.tiles-section{
+	max-width:1400px;
+	margin:auto;
 }
 
 
