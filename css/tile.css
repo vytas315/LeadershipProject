@@ -2,6 +2,10 @@ body{
 	background-color: #f5f5f5;
 }
 
+.short-title{
+	display:none;
+}
+
 .tile{
 	width:30%;
 	padding: 0px 20px 40px 20px;
@@ -24,6 +28,12 @@ body{
 @media (max-width:600px){
 	.tile{
 		width:95%;
+	}
+	.short-title{
+		display:block;
+	}
+	.long-title{
+		display:none;
 	}
 }
 
