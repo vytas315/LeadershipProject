@@ -1,9 +1,18 @@
+body{
+	background-color: #f5f5f5;
+}
+
 .tile{
 	width:30%;
 	padding: 0px 20px 40px 20px;
 	/*border-top: 1px solid #777;*/
 	/*border-radius: 4px;*/
 	margin:1%;
+	background-color:#fff;
+	border-radius:3px;
+	border:1px solid #d8d8d8;
+	border-bottom-width:2px;
+	/*border-top-width:0;*/
 }
 
 @media (max-width:900px){
@@ -27,6 +36,10 @@ dd{
 	margin:auto;
 }
 
+.tile-title{
+	border-bottom: 1px solid #e5e5e5;
+	padding-bottom: 15px;
+}
 
 /**** Isotope Filtering ****/
 
