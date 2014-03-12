@@ -19,13 +19,13 @@ body{
 	/*border-top-width:0;*/
 }
 
-@media (max-width:900px){
+@media (max-width:1100px){
 	.tile{
 		width:45%;
 	}
 }
 
-@media (max-width:600px){
+@media (max-width:800px){
 	.tile{
 		width:95%;
 	}
@@ -110,4 +110,8 @@ dd{
 .isotope-hidden.isotope-item {
   pointer-events: none;
   z-index: 1;
+}
+
+.bios{
+	margin-top:75px;
 }
