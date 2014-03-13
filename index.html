@@ -53,7 +53,7 @@
               <ul class="nav navbar-nav">
                 <li class="active"><a href="index.html">Home</a></li>
                 <li><a href="bios.html">Bios</a></li>
-                <li><a href="action.html">Action Plan</a></li>
+                <li><a href="action.html">Action Plans</a></li>
               </ul>
             </div>
           </div>
@@ -140,6 +140,13 @@
 	        <li><a href="#" data-filter=".Tom">Tom Behringer</a></li>
 	        <li><a href="#" data-filter=".Mike">Mike Meyer</a></li>
 	        <li><a href="#" data-filter=".Laura">Laura Truax</a></li>
+	      </ul>
+	    </li>
+	    <li id="Environment" class="dropdown">
+	      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Environments <b class="caret"></b></a>
+	      <ul class="dropdown-menu filters">
+	        <li><a href="#" data-filter=".Ari, .Tom, .Mike">Corporate</a></li>
+	        <li><a href="#" data-filter=".Deb, .Laura">Community</a></li>
 	      </ul>
 	    </li>
 	    <li class="clear-filters">
@@ -421,6 +428,7 @@
 		function resetFilterLabels(){
 			$('#Theme>a').html('Themes <b class="caret"></b>');
 			$('#Interviewee>a').html('Interviewees <b class="caret"></b>');
+			$('#Environment>a').html('Environments <b class="caret"></b>');
 		}
 
 		// $('.isotope-container').append($('.tile').clone());
